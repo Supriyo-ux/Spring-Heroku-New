@@ -1,1 +1,2 @@
-# Spring-Heroku-New
+# BookRepository
+Spring Boot Sample Project
