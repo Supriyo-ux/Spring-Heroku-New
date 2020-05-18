@@ -1,1 +1,0 @@
-INSERT into Books(bookname,author,price)values ("Java","Balaguruswamy",390);
