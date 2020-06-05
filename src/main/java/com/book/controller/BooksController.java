@@ -23,8 +23,12 @@ import com.book.model.Book;
 import com.book.service.BooksService;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+
 
 @Slf4j
+@CrossOrigin(origins = { "http://localhost:3000"})
 @RestController
 @RequestMapping(value = "/book" , produces = "application/hal+json")
 public class BooksController {
