@@ -26,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
-@RequestMapping(value = "/book")
+@RequestMapping(value = "/book" , produces = "application/hal+json")
 public class BooksController {
 
 	@Autowired
